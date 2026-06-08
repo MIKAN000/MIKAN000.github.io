@@ -1,0 +1,7 @@
+# Claude Code / local dev settings (not part of the site)
+.claude/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

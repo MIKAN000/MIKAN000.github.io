@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Policy — MIKAN</title>
+  <meta name="description" content="Content usage policy for MIKAN's videos and creations." />
+  <link rel="icon" type="image/png" href="assets/mikan-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== Navigation ===== -->
+  <header class="nav">
+    <a href="index.html" class="nav__logo"><img src="assets/mikan-icon.png" alt="" class="nav__logo-img" />MIKAN</a>
+    <div class="nav__right">
+      <nav class="nav__links">
+        <a href="index.html#videos" data-i18n="nav_videos">Videos</a>
+        <a href="index.html#games" data-i18n="nav_games">Games</a>
+        <a href="index.html#more" data-i18n="nav_more">More</a>
+      </nav>
+      <div class="lang-switch">
+        <span class="lang-switch__icon" aria-hidden="true">🌐</span>
+        <select id="lang-select" class="lang-select" aria-label="Language">
+          <option value="en">EN</option>
+          <option value="ja">日本語</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="legal">
+    <a href="index.html" class="legal__back" data-i18n="policy_back">← Back to home</a>
+    <h1 data-i18n="policy_title">Content Policy</h1>
+    <p class="legal__updated" data-i18n="policy_updated">Last updated: June 2026</p>
+
+    <p data-i18n="policy_intro">
+      This page explains the rules for using my videos.
+    </p>
+
+    <div class="policy-callout" data-i18n="policy_callout">
+      Reaction, commentary, compilation, and any other reuse of my videos is not
+      allowed without my prior permission. Unauthorized use may be reported to
+      YouTube and removed under its copyright policy.
+    </div>
+
+    <h2 data-i18n="policy_h1">1. Ownership</h2>
+    <p data-i18n="policy_p1">
+      Unless stated otherwise, all videos published on my channels are created by
+      and belong to MIKAN. Third-party music remains the property of its respective
+      owners and is used under its own license.
+    </p>
+
+    <h2 data-i18n="policy_h2">2. What is not allowed</h2>
+    <p data-i18n="policy_deny_intro">Without my prior permission, you may not:</p>
+    <ul>
+      <li data-i18n="policy_deny_react">Use my videos in reaction, commentary, compilation, or clip videos.</li>
+      <li data-i18n="policy_deny_1">Re-upload my videos, in whole or in part, to any platform.</li>
+      <li data-i18n="policy_deny_2">Claim my videos as your own.</li>
+      <li data-i18n="policy_deny_3">Use my videos in a misleading, defamatory, or commercial way.</li>
+      <li data-i18n="policy_deny_4">Use my videos to train AI models or build datasets.</li>
+    </ul>
+    <p data-i18n="policy_p2b">
+      Unauthorized use may be reported to YouTube and removed under its copyright
+      policy, which can result in a copyright strike on the uploading channel.
+    </p>
+    <p data-i18n="policy_scope">
+      Where permission has been given, it applies only to that specific channel and
+      is not transferable.
+    </p>
+
+    <h2 data-i18n="policy_h3">3. What you may do</h2>
+    <p data-i18n="policy_allow_intro">You are welcome to:</p>
+    <ul>
+      <li data-i18n="policy_allow_1">Share links to my videos and channels.</li>
+      <li data-i18n="policy_allow_2">Embed my videos using YouTube's official embed/share feature, unchanged.</li>
+    </ul>
+
+    <p class="legal__note" data-i18n="policy_note">
+      This policy may be updated from time to time. The "last updated" date above
+      reflects the most recent change.
+    </p>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <nav class="footer__links">
+      <span class="footer__contact"><span data-i18n="contact_label">Contact:</span> <a href="mailto:mikanweight@gmail.com">mikanweight@gmail.com</a></span>
+    </nav>
+    <p>© <span id="year"></span> MIKAN. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
